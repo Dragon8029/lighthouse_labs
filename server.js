@@ -8,7 +8,7 @@ app.use(express.static('client'));
 
 var io = require('socket.io')(server);
 
-io.on('connectioin', function (socket) {
+io.on('connection', function (socket) {
     socket.on('message', function (msg) {
         io.emit('message', msg);
     });

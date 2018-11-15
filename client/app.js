@@ -1,11 +1,11 @@
 var socket = io();
-$('form').on('submit', function() {
+$('form').submit (function() {
     var text = $('#message').val();
     socket.emit('message', text);
-        $('#message').val('');
+    $('#message').val('');
     return false;
 });
 
 socket.on('message', function (msg) {
-    $('<li>').text(msg).appendTo('#history');
+    $('<li>' + '#initial').text(msg).appendTo('#history');
 });
