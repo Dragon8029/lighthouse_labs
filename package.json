@@ -1,0 +1,24 @@
+{
+  "name": "Lighthouse_Labs",
+  "version": "1.0.0",
+  "description": "Javascript essentials course work from Lighthouse Labs",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Dragon8029/lighthouse_labs.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Dragon8029/lighthouse_labs/issues"
+  },
+  "homepage": "https://github.com/Dragon8029/lighthouse_labs#readme",
+  "dependencies": {
+    "express": "^4.16.4"
+  }
+}
