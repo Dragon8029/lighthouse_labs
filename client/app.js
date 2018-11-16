@@ -7,5 +7,5 @@ $('form').submit (function() {
 });
 
 socket.on('message', function (msg) {
-    $('<li>' + '#initial').text(msg).appendTo('#history');
+    $('<li>').text(msg).appendTo('#history');
 });
